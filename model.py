@@ -12,7 +12,7 @@ from textblob import TextBlob
 
 stop_words = set(stopwords.words('english'))
 
-df = pd.read_csv(r"C:\Users\sahar\OneDrive\Desktop\ds and ml files\blogs.csv")
+df = pd.read_csv("blogs.csv")
 
 df = df.dropna(subset=['Data', 'Labels'])
 
